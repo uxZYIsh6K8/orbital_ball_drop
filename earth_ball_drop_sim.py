@@ -235,7 +235,7 @@ def Calc_surface_azimuth_displacement(t, azi_initial):
     return (Constants_Earth.azimuthal_angular_velocity_earth * sol.t \
                 + azi_angle_ini)
 
-
+# ============================================================================
 if __name__ == "__main__":
     # main code here
     enable_user_input = True # Turns on text entry through terminal
@@ -453,3 +453,4 @@ if __name__ == "__main__":
                           f"is {dist_:.5e} m")
         #end if
     #end if
+#end main
